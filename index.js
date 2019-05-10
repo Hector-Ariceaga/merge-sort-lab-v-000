@@ -1,7 +1,6 @@
 let findMinAndRemoveSorted = (array) => {
   const smallest = array[0];
-  array.shift();
-  return smallest
+  return array.shift();
 }
 
 let merge = (array1, array2) => {
