@@ -13,3 +13,10 @@ let merge = (firstArray, secondArray) => {
   }
   return sorted.concat(firstArray).concat(secondArray)
 }
+
+let mergeSort = (array) => {
+  let mid = array.length / 2
+  let firstHalf = array.slice(0, mid)
+  let secondHalf = array.slice(mid, array.length)
+  return merge(mergeSort(firstHalf), mergeSort(secondHalf))
+}
