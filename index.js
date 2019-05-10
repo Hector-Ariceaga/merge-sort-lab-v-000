@@ -1,4 +1,4 @@
-let findMinAndRemoveSorted = (array1, array2) => {
+let findMinAndRemoveSorted = (array1, array2 = []) => {
   let firstMin = array1[0];
   let secondMin = array2[0];
 
