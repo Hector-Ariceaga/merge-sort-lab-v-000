@@ -5,5 +5,5 @@ let findMinAndRemoveSorted = (array) => {
 }
 
 let merge = (array) => {
-  
+
 }
