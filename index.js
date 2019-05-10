@@ -11,5 +11,5 @@ let merge = (firstArray, secondArray) => {
       sorted.push(findMinAndRemoveSorted(secondArray))
     }
   }
-  return sorted
+  return sorted.concat(firstArray).concat(secondArray)
 }
