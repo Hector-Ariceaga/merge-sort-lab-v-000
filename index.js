@@ -1,4 +1,4 @@
-let findMinAndRemoveSorted = (array1) => {
+let findMinAndRemoveSorted = (array) => {
   const smallest = array[0];
   array.shift();
 }
