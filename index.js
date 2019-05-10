@@ -9,6 +9,6 @@ let merge = (firstArray, secondArray) => {
     sorted.push(findMinAndRemoveSorted(firstArray))
   } else {
     sorted.push(findMinAndRemoveSorted(secondArray))
-  } 
+  }
   return sorted
 }
