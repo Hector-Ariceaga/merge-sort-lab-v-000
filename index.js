@@ -10,9 +10,9 @@ let merge = (array1, array2) => {
     let firstMin = findMinAndRemoveSorted(array1);
     let secondMin = findMinAndRemoveSorted(array2);
     if (firstMin < secondMin) {
-      sorted.push(firstMin, secondMin)
+      sorted.push(firstMin)
     } else {
-      sorted.push(secondMin, firstMin)
+      sorted.push(secondMin)
     }
   }
   return sorted
