@@ -3,3 +3,7 @@ let findMinAndRemoveSorted = (array) => {
   array.shift()
   return smallest
 }
+
+let merge = (array) => {
+  
+}
