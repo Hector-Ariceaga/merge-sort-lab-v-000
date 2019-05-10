@@ -8,11 +8,11 @@ let merge = (array1, array2) => {
   let currentMin;
   while(array1.length != 0 && array2.length != 0) {
     let firstMin = findMinAndRemoveSorted(array1);
-    let lastMin = findMinAndRemoveSorted(array2);
+    let secondMin = findMinAndRemoveSorted(array2);
     if (firstMin < lastMin) {
-      sorted.push(firstMin, lastMin)
+      sorted.push(firstMin, secondMin)
     } else {
-      sorted.push(lastMin, firstMin)
+      sorted.push(secondMin, firstMin)
     }
   }
   return sorted
